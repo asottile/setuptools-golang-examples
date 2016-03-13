@@ -1,0 +1,9 @@
+*.egg-info
+*.h
+*.pyc
+*.so
+/.cache
+/.coverage
+/.eggs
+/.tox
+/.venv.touch
