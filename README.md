@@ -13,7 +13,7 @@ A few examples utilizing [setuptools-golang](https://github.com/asottile/setupto
 ## `go_sum`
 
 - A very basic hello-world-y demo
-- This example is roughly lifted from @FiloSottile's [blog post](https://blog.filippo.io/building-python-modules-with-go-1-5/)
+- This example is roughly lifted from @[FiloSottile](https://github.com/FiloSottile)'s [blog post](https://blog.filippo.io/building-python-modules-with-go-1-5/)
 
 ## `hello_lib`
 
