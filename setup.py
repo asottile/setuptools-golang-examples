@@ -14,8 +14,8 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
@@ -27,5 +27,5 @@ setup(
         Extension('sum_pure_go', ['sum_pure_go/sum_pure_go.go']),
     ],
     build_golang={'root': 'github.com/asottile/setuptools-golang-examples'},
-    setup_requires=['setuptools-golang'],
+    setup_requires=['setuptools-golang>=0.2.0'],
 )
