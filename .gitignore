@@ -7,3 +7,5 @@
 /.eggs
 /.tox
 /.venv.touch
+/dist
+/venv-*
