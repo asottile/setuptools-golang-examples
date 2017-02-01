@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/asottile/setuptools-golang-examples.svg?branch=master)](https://travis-ci.org/asottile/setuptools-golang-examples)
-[![Coverage Status](https://img.shields.io/coveralls/asottile/setuptools-golang-examples.svg?branch=master)](https://coveralls.io/r/asottile/setuptools-golang-examples)
+[![Coverage Status](https://coveralls.io/repos/github/asottile/setuptools-golang-examples/badge.svg?branch=master)](https://coveralls.io/github/asottile/setuptools-golang-examples?branch=master)
 
 setuptools-golang-examples
 =================
