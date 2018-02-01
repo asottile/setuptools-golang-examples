@@ -2,7 +2,7 @@
 *.h
 *.pyc
 *.so
-/.cache
+/.pytest_cache
 /.coverage
 /.eggs
 /.tox
