@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/asottile/setuptools-golang-examples/badge.svg?branch=master)](https://coveralls.io/github/asottile/setuptools-golang-examples?branch=master)
 
 setuptools-golang-examples
-=================
+==========================
 
 A few examples utilizing [setuptools-golang](https://github.com/asottile/setuptools-golang).
 
