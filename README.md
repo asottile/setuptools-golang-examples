@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/asottile/setuptools-golang-examples.svg?branch=master)](https://travis-ci.org/asottile/setuptools-golang-examples)
-[![Coverage Status](https://coveralls.io/repos/github/asottile/setuptools-golang-examples/badge.svg?branch=master)](https://coveralls.io/github/asottile/setuptools-golang-examples?branch=master)
+[![Build Status](https://asottile.visualstudio.com/asottile/_apis/build/status/asottile.setuptools-golang-examples?branchName=master)](https://asottile.visualstudio.com/asottile/_build/latest?definitionId=12&branchName=master)
+[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/asottile/asottile/12/master.svg)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=12&branchName=master)
 
 setuptools-golang-examples
 ==========================
