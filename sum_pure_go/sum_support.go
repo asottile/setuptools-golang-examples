@@ -13,7 +13,6 @@ package main
 //     {NULL, NULL}
 // };
 //
-// #if PY_MAJOR_VERSION >= 3
 // static struct PyModuleDef module = {
 //     PyModuleDef_HEAD_INIT,
 //     "sum_pure_go",
@@ -25,9 +24,4 @@ package main
 // PyMODINIT_FUNC PyInit_sum_pure_go(void) {
 //     return PyModule_Create(&module);
 // }
-// #else
-// PyMODINIT_FUNC initsum_pure_go(void) {
-//     Py_InitModule3("sum_pure_go", methods, NULL);
-// }
-// #endif
 import "C"
