@@ -2,10 +2,9 @@
 *.h
 *.pyc
 *.so
-/.pytest_cache
 /.coverage
 /.eggs
+/.mypy_cache
+/.pytest_cache
 /.tox
-/.venv.touch
 /dist
-/venv-*

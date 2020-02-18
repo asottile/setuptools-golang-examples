@@ -13,7 +13,6 @@ static struct PyMethodDef methods[] = {
     {NULL, NULL}
 };
 
-#if PY_MAJOR_VERSION >= 3
 static struct PyModuleDef module = {
     PyModuleDef_HEAD_INIT,
     "hello_lib",
@@ -25,8 +24,3 @@ static struct PyModuleDef module = {
 PyMODINIT_FUNC PyInit_hello_lib(void) {
     return PyModule_Create(&module);
 }
-#else
-PyMODINIT_FUNC inithello_lib(void) {
-    Py_InitModule3("hello_lib", methods, NULL);
-}
-#endif

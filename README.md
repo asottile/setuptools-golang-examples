@@ -29,4 +29,4 @@ A few examples utilizing [setuptools-golang](https://github.com/asottile/setupto
   files.
 - It's slightly cheaty in that one of the go files is entirely a C header.
 - You could instead do something similar to [this example](https://blog.filippo.io/building-python-modules-with-go-1-5/#bonustheneedlesslyhardway)
-  but it's much more difficult (impossible?) to support py2 + py3.
+  but it's much more difficult to support multiple versions of python.
