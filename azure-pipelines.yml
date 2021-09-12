@@ -17,17 +17,17 @@ jobs:
   parameters:
     toxenvs: [py36]
     os: linux
-    name_postfix: _go_1_12
+    name_postfix: _go_1_16
     pre_test:
     - task: GoTool@0
       inputs:
-        version: '1.12.17'
+        version: '1.16.8'
 - template: job--python-tox.yml@asottile
   parameters:
     toxenvs: [pypy3, py36, py37, py38]
     os: linux
-    name_postfix: _go_1_13
+    name_postfix: _go_1_17
     pre_test:
     - task: GoTool@0
       inputs:
-        version: '1.13.8'
+        version: '1.17.1'
