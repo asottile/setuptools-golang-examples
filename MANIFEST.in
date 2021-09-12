@@ -1,2 +1,3 @@
+include go.mod
 global-include *.c
 global-include *.go
