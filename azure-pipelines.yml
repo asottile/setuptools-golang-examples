@@ -24,7 +24,7 @@ jobs:
         version: '1.17.1'
 - template: job--python-tox.yml@asottile
   parameters:
-    toxenvs: [py36]
+    toxenvs: [py37]
     os: linux
     name_postfix: _go_1_16
     pre_test:
@@ -33,7 +33,7 @@ jobs:
         version: '1.16.8'
 - template: job--python-tox.yml@asottile
   parameters:
-    toxenvs: [pypy3, py36, py37, py38]
+    toxenvs: [py37, py38]
     os: linux
     name_postfix: _go_1_17
     pre_test:
