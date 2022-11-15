@@ -24,23 +24,23 @@ else:
 setup(
     ext_modules=[
         Extension(
-            'c_module', ['c_module/c_module.c'],
+            'c_module', ['c_module_proj/c_module.c'],
             py_limited_api=True, define_macros=[('Py_LIMITED_API', None)],
         ),
         Extension(
-            'hello_lib', ['hello_lib/hello_lib.go'],
+            'hello_lib', ['hello_lib_proj/hello_lib.go'],
             py_limited_api=True, define_macros=[('Py_LIMITED_API', None)],
         ),
         Extension(
-            'red', ['red/red.go'],
+            'red', ['red_proj/red.go'],
             py_limited_api=True, define_macros=[('Py_LIMITED_API', None)],
         ),
         Extension(
-            'sum_go', ['sum_go/sum_go.go'],
+            'sum_go', ['sum_go_proj/sum_go.go'],
             py_limited_api=True, define_macros=[('Py_LIMITED_API', None)],
         ),
         Extension(
-            'sum_pure_go', ['sum_pure_go/sum_pure_go.go'],
+            'sum_pure_go', ['sum_pure_go_proj/sum_pure_go.go'],
             py_limited_api=True, define_macros=[('Py_LIMITED_API', None)],
         ),
     ],
