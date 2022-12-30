@@ -1,5 +1,4 @@
-[![Build Status](https://asottile.visualstudio.com/asottile/_apis/build/status/asottile.setuptools-golang-examples?branchName=main)](https://asottile.visualstudio.com/asottile/_build/latest?definitionId=12&branchName=main)
-[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/asottile/asottile/12/main.svg)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=12&branchName=main)
+[![build status](https://github.com/asottile/setuptools-golang-examples/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/setuptools-golang-examples/actions/workflows/main.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/setuptools-golang-examples/main.svg)](https://results.pre-commit.ci/latest/github/asottile/setuptools-golang-examples/main)
 
 setuptools-golang-examples
