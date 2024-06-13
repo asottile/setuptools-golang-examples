@@ -4,8 +4,8 @@
 PyObject* red(PyObject*);
 
 /* To shim go's missing variadic function support */
-int PyArg_ParseTuple_U(PyObject* args, PyObject** obj) {
-    return PyArg_ParseTuple(args, "U", obj);
+int PyArg_ParseTuple_s(PyObject* args, char** obj) {
+    return PyArg_ParseTuple(args, "s", obj);
 }
 
 static struct PyMethodDef methods[] = {
